@@ -1,10 +1,10 @@
 {
     "manifest_version": 3,
-    "name": "Quick Password Generator",
-    "description": "Simple Password Generator with options",
+    "name": "Quick Password Generator Extension",
+    "description": "Simple Password Generator Extension with options for your browser.",
     "version": "1.0",
     "action": {
-      "default_title": "Quick Password Generator",
+      "default_title": "Quick Password Generator Extension",
       "default_popup": "popup.html",
       "default_icon": "favicon.png"
     },

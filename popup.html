@@ -9,42 +9,42 @@
 </head>
 <body>
     <div class="container">
+        <button class="btn generate" id="generate">Generate</button>
         <div class="result">
             <div class="result__title field-title">Password</div>
             <div class="result__info right">Click to copy</div>
             <div class="result__info left">Copied</div>
-            <div class="result__viewbox" id="result">GENERATE</div>
+            <div class="result__viewbox" id="result">*</div>
             <button id="copy-btn" style="--x: 0; --y: 0"><i class="far fa-copy"></button>
         </div>
-        <div class="length range__slider" data-min="4" data-max="32">
+        <div class="length range__slider" data-min="8" data-max="32">
             <div class="length__title field-title" data-length="0">length:</div>
-            <input id="slider" type="range" min="4" max="32" value="16">
+            <input id="slider" type="range" min="8" max="32" value="16">
         </div>
         <div class="settings">
             <span class="settings__title field-title">settings</span>
             <div class="set">
                 <div class="setting">
                     <input type="checkbox" id="uppercase" checked />
-                    <label for="uppercase">ABCDEF</label>
+                    <label for="uppercase">ABC</label>
                 </div>
                 <div class="setting">
                     <input type="checkbox" id="lowercase" checked />
-                    <label for="lowercase">abcdef</label>
+                    <label for="lowercase">abc</label>
                 </div>
             </div>
             <div class="set">
                 <div class="setting">
                     <input type="checkbox" id="number" checked />
-                    <label for="number">123456</label>
+                    <label for="number">123</label>
                 </div>
                 <div class="setting">
-                    <input type="checkbox" id="symbol" />
+                    <input type="checkbox" id="symbol" checked />
                     <label for="symbol">&@+($-</label>
                 </div>
             </div>
         </div>
-        <button class="btn generate" id="generate">Generate</button>
-        <p><a href="https://github.com/endurtech/quick-password-generator" target="_blank">github</a></p>
+        <p><a href="https://github.com/endurtech/quick-password-generator-extension" target="_blank">github</a></p>
     </div>
 </body>
 </html>
